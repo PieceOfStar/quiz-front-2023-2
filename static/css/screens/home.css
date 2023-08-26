@@ -1,1 +1,142 @@
-/* home.html에 해당하는 css */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gowun+Dodum&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+#logo{
+    width: 6.125rem;
+height: 3.0625rem;
+flex-shrink: 0;
+}
+
+#banner{
+    width: 15.0625rem;
+height: 12.875rem;
+flex-shrink: 0;
+}
+
+.container{
+    background: #002446;
+    padding:0;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #fff;
+}
+
+article{
+    align-items: center;
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    margin-top: 3.44rem;
+    color: #FFF;
+}
+
+.detail{
+    display: none;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+.posTitle{
+    font-family: Pretendard;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.posBorder{
+    width: 20.9375rem;
+height: 32.625rem;
+flex-shrink: 0;
+border-radius: 1.875rem;
+background: rgba(167, 167, 167, 0.50);
+align-items: center;
+justify-content: center;
+
+}
+
+.posContent{
+    margin-top:1.81rem;
+    color: #FFF;
+text-align: center;
+font-family: Pretendard;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.StarBoogie{
+    margin-top:0.94rem;
+    color: #FFF;
+font-family: Pretendard;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.check-btn {
+    margin:0 auto;
+    margin-top:0.94rem;
+    width: 16.875rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    background: #FFF;
+    display: flex;
+    flex-direction: row;      
+    justify-content: center;    
+    align-items: center;      
+    color: #002446;
+text-align: center;
+font-family: Pretendard;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;  
+}
+
+
+.dCenter{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#rank{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+    
+}
+#frame{
+    max-width: 95%;
+    height: auto;
+}
+#dFrame{
+    max-width: 95%;
+    height: auto;
+}
+#title{
+    font-size: 24px;
+    font-weight: bold;
+}
+#explain{
+    font-size: 18px;
+}
+#difBtn{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+footer{
+    color: #FFF;
+font-family: Pretendard;
+font-size: 0.625rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align:center;
+    margin-top: 3.44rem;
+    padding-bottom: 20px;
+}
