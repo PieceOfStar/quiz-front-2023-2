@@ -7,6 +7,13 @@ height: 3.0625rem;
 flex-shrink: 0;
 }
 
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #fff;
+}
+
 #banner{
     width: 15.0625rem;
 height: 12.875rem;
@@ -18,12 +25,7 @@ flex-shrink: 0;
     padding:0;
 }
 
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid #fff;
-}
+
 
 article{
     align-items: center;
@@ -34,10 +36,6 @@ article{
     color: #FFF;
 }
 
-.detail{
-    display: none;
-    font-family: 'Gowun Dodum', sans-serif;
-}
 .posTitle{
     font-family: Pretendard;
 font-size: 1.5625rem;
@@ -78,57 +76,23 @@ font-weight: 700;
 line-height: normal;
 }
 
-.check-btn {
+button {
     margin:0 auto;
-    margin-top:0.94rem;
-    width: 16.875rem;
-    height: 3.125rem;
-    flex-shrink: 0;
-    border-radius: 1.875rem;
-    background: #FFF;
-    display: flex;
-    flex-direction: row;      
-    justify-content: center;    
-    align-items: center;      
     color: #002446;
 text-align: center;
 font-family: Pretendard;
 font-size: 1.25rem;
 font-style: normal;
 font-weight: 700;
-line-height: normal;  
+line-height: normal;
+width: 16.875rem;
+height: 3.125rem;
+flex-shrink: 0;
+border-radius: 1.875rem;
+background: #FFF;
+margin-top:0.94rem;
 }
 
-
-.dCenter{
-    text-align: center;
-    margin-bottom: 10px;
-}
-#rank{
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 30px;
-    margin-bottom: 50px;
-    
-}
-#frame{
-    max-width: 95%;
-    height: auto;
-}
-#dFrame{
-    max-width: 95%;
-    height: auto;
-}
-#title{
-    font-size: 24px;
-    font-weight: bold;
-}
-#explain{
-    font-size: 18px;
-}
-#difBtn{
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
 footer{
     color: #FFF;
 font-family: Pretendard;
