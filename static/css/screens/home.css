@@ -2,6 +2,7 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 #logo{
+    margin-top:1.25rem;
     width: 6.125rem;
 height: 3.0625rem;
 flex-shrink: 0;
