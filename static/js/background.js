@@ -26,7 +26,7 @@ function init() {
 
     //meteoros
 
-    var numeroAleatorio = 5000;
+    var numeroAleatorio = 3000;
 
     setTimeout(function () {
         carregarMeteoro();
@@ -34,7 +34,7 @@ function init() {
 
     function carregarMeteoro() {
         setTimeout(carregarMeteoro, numeroAleatorio);
-        numeroAleatorio = getRandomArbitrary(5000, 10000);
+        numeroAleatorio = getRandomArbitrary(3000, 6000);
         var meteoro = "<div class='meteoro " + style[getRandomArbitrary(0, 4)] + "'></div>";
         document.getElementsByClassName('chuvaMeteoro')[0].innerHTML = meteoro;
         setTimeout(function () {
