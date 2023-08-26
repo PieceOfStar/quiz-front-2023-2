@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- <meta charset="UTF-8" http-equiv="refresh" content="4; URL=exhibition.html">-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="../../static/css/screens/home.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="../../static/css/screens/background.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
     <title>posExhibition</title>
 </head>
 
 <body class="container">
-    <div style = "text-align :center;" onclick="window.location.reload();">
+    <div style="text-align :center;" onclick="window.location.reload();">
         <img id="logo" src="../../static/image/logo.png">
         <hr>
     </div>
     <article class="start">
-        <div style = "text-align : center;" class="posTitle">
+        <div style="text-align : center;" class="posTitle">
             <p>#별조각_소개</p>
         </div>
 
         <div class="posBorder">
-        <p style="text-align:center;" class="posContent">
-            안녕하세요, 한성대학교 천체 관측 동아리 별조각 입니다!<br>
-            <br>
-        별조각은 별을 사랑하는 사람들이 모인 동아리입니다. <br>
-        망원경으로 직접 달, 별자리 등을 정기적으로 관측합니다. <br>
-        슈퍼문, 일식, 월식 등과 같이 특별한 천체 행사가 있다면 <br>
-        더욱 생생하게 망원경으로 천체를 관측할 수 있습니다. <br>
-        천체에 관한 다양한 지식을 얻고 밤하늘을 함께 즐겨 봅시다!</p>
+            <p style="text-align:center;" class="posContent">
+                안녕하세요, 한성대학교 천체 관측 동아리 별조각 입니다!<br>
+                <br>
+                별조각은 별을 사랑하는 사람들이 모인 동아리입니다. <br>
+                망원경으로 직접 달, 별자리 등을 정기적으로 관측합니다. <br>
+                슈퍼문, 일식, 월식 등과 같이 특별한 천체 행사가 있다면 <br>
+                더욱 생생하게 망원경으로 천체를 관측할 수 있습니다. <br>
+                천체에 관한 다양한 지식을 얻고 밤하늘을 함께 즐겨 봅시다!
+            </p>
 
-        <p class="StarBoogie">
-            별 보러 갈 부기?
-        </p>
- 
-        <img id="banner" src="../../static/image/boogie.png.png">
+            <p class="StarBoogie">
+                별 보러 갈 부기?
+            </p>
+
+            <img id="banner" src="../../static/image/boogie.png.png">
 
 
-        <button class="check-btn" onclick="window.location.href='form.html'">
-            상품 지급 방식 확인하기
-        </button>
+            <button class="check-btn" onclick="window.location.href='form.html'">
+                상품 지급 방식 확인하기
+            </button>
+
+            <!-- 배경 작업 -->
+            <div class="constelacao"></div>
+
+            <div class="chuvaMeteoro"></div>
+
+            <div class="floresta">
+                <img src="https://raw.githubusercontent.com/interaminense/starry-sky/master/src/img/bgTree.png"
+                    alt="" />
+            </div>
+            <!-- 배경 작업 끝 -->
         </div>
     </article>
 
@@ -49,8 +65,14 @@
         <br>
         <p style="color:#fff;">Developed by 강민서, 이나경</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="../../static/js/background.js"></script>
     
 </body>
+
 </html>
